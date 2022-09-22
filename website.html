@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Grand Paradise Zoo </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"> </script>
+  <style>
+    body {
+      font-family: Poppins;
+    }
+    .img-border {
+      position: relative;
+      height: 100%;
+      min-height: 400px;
+    }
+    .img-border::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 3rem;
+      bottom: 3rem;
+      border: 5px solid #5cb85c;
+    }
+    .img-border img {
+      position: absolute;
+      top: 3rem;
+      left: 3rem;
+      width: calc(100% - 3rem);
+      height: calc(100% - 3rem);
+      object-fit: cover;
+    }
+    *, *::before, *::after {
+    box-sizing: border-box;
+    }
+  </style>
+  <body>    
+    <div class="container-fluid bg-success">
+      <div class="row">
+        <div class="col-lg-7 px-5 text-start d-flex align-items-center">
+          <a class="btn btn-sm-square bg-white text-primary" href=""> <i class="bi bi-geo-alt-fill text-success"></i></i></a>
+          <div class="d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt text-primary mx-2"> </small>
+            <small class="text-white">  27 No Road, A Block, Banani, Dhaka </small>
+          </div>
+          <div class="d-inline-flex align-items-center py-3">
+            <small class="fa fa-clock text-primary me-2"> </small>
+            <small class="text-white"> Mon - Fri : 09.00 AM - 09.00 PM </small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end d-flex align-items-center justify-content-end">
+          <div class="d-inline-flex align-items-center">
+            <small class="fa fa-phone-alt text-primary me-2"> </small>
+            <a class="btn btn-sm-square bg-white text-primary" href=""> <i class="bi bi-telephone-fill text-success"> </i> </a>
+            <small class="text-white mx-2"> +880 1736-458789 </small>
+          </div>
+          <div class="d-inline-flex align-items-center">
+            <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/"> <i class="bi bi-facebook text-success"> </i> </a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.instagram.com/"> <i class="bi bi-instagram text-success"> </i> </a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href="https://bd.linkedin.com/"> <i class="bi bi-linkedin text-success"> </i> </a>
+            <a class="btn btn-sm-square bg-white text-primary me-0" href="https://twitter.com/"> <i class="bi bi-twitter text-success"> </i> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: #e3f2fd;">
+      <nav class="navbar navbar-expand-sm">
+      <!-- Navbar content -->
+        <div class="row w-100 d-flex justify-content-between">
+          <div class="col-md-4">
+            <div class=" px-4 d-flex align-items-center">
+              <a class="navbar-brand d-flex align-items-center" href="#">
+                <img class="img-fluid me-3" src="icon-10.png" alt="Icon">
+                <span class="navbar-text text-success fs-2 fw-bolder"> Grand Paradise Zoo </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-8 d-flex justify-content-end align-items-center"> 
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarCollapse">
+              <ul class="navbar-nav fw-bold">
+                <li class="nav-item">
+                  <a class="nav-link active text-success" href="#"> HOME </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> ABOUT </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> SERVICES </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PAGES
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li> <a class="dropdown-item" href="#"> Our Animals </a> </li>
+                    <li> <a class="dropdown-item" href="#"> Membership </a> </li>
+                    <li> <a class="dropdown-item" href="#"> Visiting Hours </a> </li>
+                    <li> <a class="dropdown-item" href="#"> Testimonial </a> </li>
+                    <li> <a class="dropdown-item" href="https://motorsheba.com/"> 404 Page </a> </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> CONTACT </a>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-success text-white" class="bi bi-arrow-right"> BUY TICKET </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar end-->
+    <!-- Header start-->
+    <div class="row w-100 g-0">
+      <div class="col-lg-6">
+        <img src="Tiger.png" alt="Loading" class="img img-fluid">
+      </div>
+      <div class="col-lg-6">
+        <img src="Panda.png" alt="Loading" class="img img-fluid">
+      </div>
+    </div>
+    <div class="container my-lg-5">
+      <div class="row w-100 g-5">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+          <p> <span class="text-success me-2"> # </span> Welcome To Zoofari </p>
+          <h1 class="mb-3 fw-bold"> Why You Should Visit <br>
+            <span class="text-success"> Zoofari </span> Park!
+          </h1>
+          <p class="mb-3"> Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No 
+            stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo 
+            nonumy clita sit at, sed sit sanctus dolor eos. A zoological garden,
+            zoological park, or zoo is a place where many different species types
+            of animals are kept so that people can see and watch them. A zoo is a
+            place where animals live in captivity and are put on display for people
+            to view. The word “zoo” is short for “zoological park.” Zoos contain wide
+            varieties of animals that are native to all parts of the Earth.
+          </p>
+          <h5 class="mb-3 fw-bold">
+            <i class="bi-check-circle text-success" style="font-size:20px"> </i> <span class="p-2"> Free Car Parking </span> 
+          </h5>
+          <h5 class="mb-3 fw-bold">
+            <i class="bi-check-circle text-success" style="font-size:20px"> </i> <span class="p-2"> Natural Environment </span> 
+          </h5>
+          <h5 class="mb-3 fw-bold">
+            <i class="bi-check-circle text-success" style="font-size:20px"> </i> <span class="p-2"> Professional Guide & Security </span>
+          </h5>
+          <h5 class="mb-3 fw-bold">
+            <i class="bi-check-circle text-success" style="font-size:20px"> </i> <span class="p-2"> World Best Animals </span>
+          </h5>
+          <br>
+          <button type="button" class="btn btn-success text-white" class="bi bi-arrow-right" class="mb-3"> READ MORE </button>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+          <div class="img-border">
+            <img src="Lion.png" alt="Loading">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-xxl bg-dark facts my-5 py-5">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3 text-center">
+            <img src="paws.png" alt="Loading" class="mb-3"> </i>
+            <h2 class="text-white"> 8875 </h2>
+            <p class="text-white"> Total Animal </p>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center">
+            <img src="group.png" alt="Loading" class="mb-3"> </i>
+            <h2 class="text-white"> 15382 </h2>
+            <p class="text-white"> Daily Visitors </p>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center">
+            <img src="stars.png" alt="Loading" class="mb-3"> </i>
+            <h2 class="text-white"> 20785 </h2>
+            <p class="text-white"> Total Membership </p>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center">
+            <img src="certification.png" alt="Loading" class="mb-3"> </i>
+            <h2 class="text-white"> 12640 </h2>
+            <p class="text-white"> Save Wild Life </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-lg-5">
+      <div class="row w-100 g-5">
+        <div class="col-lg-6">
+          <p> <span class="text-success me-2"> # </span> Our Services </p>
+          <h1 class="mb-3 fw-bold"> Special Services For <br>
+            <span class="text-success"> Zoofari </span> Visitors
+          </h1>
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-success h-100 d-flex align-items-center py-4 px-4 px-sm-5">
+            <img src="smartphone.png" alt="Loading">
+            <div class="ms-4">
+              <p class="text-white fw-bold mb-0"> Call For More Info </p>
+              <h5 class="text-white mb-0"> +880 1736-458789 </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-lg-5">
+      <div class="row gy-5 gx-4">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="parking.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Car Parking </h5>
+          <span class="mb-3"> Car Park Services Ltd provide car parking and enforcement solutions for clients in the public sector and private sector, we also manage our own car parks. </span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="camera.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Animal Photos </h5>
+          <span class="mb-3"> It might seem frivolous to share the photos of cute pets, but there're some scientific evidence from research that viewing certain pictures can make us happier. </span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="tour-guide.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Guide Services </h5>
+          <span class="mb-3"> A guide is a book of information about a place designed for the visitors. It'll usually include information about sights, accommodation, restaurants, transportation and activities. </span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="fast-food.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Food & Beverages </h5>
+          <span class="mb-3"> Fast-food restaurants often serve hamburgers, chicken, sandwiches, pizza, mexiacan fare, ice-cream and any bengali foods such as biriyani, mutton, fish, rice & vegetables. </span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="bag.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Zoo Shopping </h5>
+          <span class="mb-3"> In the Zoo Shop in Copenhagen Zoo it is all about animals. From toys and clothing to the beautiful historic posters with the zoo's animals. </span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="free-wifi.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Free Hi-speed Wi-Fi </h5>
+          <span class="mb-3"> A free WiFi network is what you get when you install a wireless router. Usually it means, you can access Internet without making any payment. </span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="playground.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Play Ground </h5>
+          <span class="mb-3"> The meaning of playground is a piece of land used for and usually equipped with facilities for recreation especially by children. </span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="boat.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Boating </h5>
+          <span class="mb-3"> Boating is the leisurely activity of travelling by boat, or the recreational use of a boat whether powerboats, sailboats, or man-powered vessels. </span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="picnic.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Picnic Spot </h5>
+          <span class="mb-3"> A picnic area/site- a special area with tables where people can have picnics and they can feel the fresh air· There is a picnic area next to the car park. </span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="mb-3" src="resthouse.png" alt="Loading">
+          <h5 class="mb-3 fw-bold"> Rest House </h5>
+          <span class="mb-3"> Rest house - a building used for shelter by travelers (especially in areas where there are no hotels). building, edifice etc. </span>
+        </div> 
+      </div>
+    </div>
+    <div class="container-xxl">
+      <div class="container">
+        <div class="container my-lg-5">
+          <div class="row g-5">
+            <div class="col-lg-6">
+              <p> <span class="text-success me-2"> # </span> Our Animals </p>
+              <h1 class="mb-3 fw-bold"> Let's See Our <span class="text-success"> Zoofari </span> <br>
+                Awesome Animals </h1>
+            </div>
+            <div class="col-lg-6">
+              <div class="bg-success h-100 d-flex align-items-center py-4 px-4 px-sm-5">
+                <img src="geography (2).png" alt="Loading">
+                <div class="ms-4">
+                  <h5 class="text-white fw-bold mb-0"> Explore </h5>
+                  <p class="text-white mb-0"> More Animals </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img class="rounded float-left" src="Untitled design.png" alt="Loading" style="width:100%">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img class="rounded float-center" src="Untitled design (2).png" alt="Loading" style="width: 100%">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img class="rounded float-right" src="Untitled design (3).png" alt="Loading" style="width:100%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-3">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img class="rounded float-left" src="Eagles.jpg" alt="Loading" style="width:100%">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img class="rounded float-center" src="Horse.jpg" alt="Loading" style="width: 100%">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img class="rounded float-right" src="Eagle.jpg" alt="Loading" style="width:100%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-3">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img class="rounded float-left" src="Zebra.jpg" alt="Loading" style="width:100%">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img class="rounded float-center" src="Elephant.jpg" alt="Loading" style="width: 100%">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img class="rounded float-right" src="Deer2.jpg" alt="Loading" style="width:100%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Animal ends
+    Visiting hours started-->
+    <div class="container overflow-auto">
+      <div class="container py-5 px-5  bg-dark bg-gradient">
+        <div class="row g-5">
+          <div class="col-md-6">
+            <h3 class="display-6 text-white mb-5"> Visiting Hours: </h3>
+            <table class="table text-white bg-success">
+              <tbody>
+                <tr>
+                  <td> Monday </td>
+                  <td class="text-end"> 9:00AM - 6:00PM </td>
+                </tr>
+                <tr>
+                  <td> Tuesday </td>
+                  <td class="text-end"> 9:00AM - 6:00PM </td>
+                </tr>
+                <tr>
+                  <td> Wednesday </td>
+                  <td class="text-end"> 9:00AM - 6:00PM </td>
+                </tr>
+                <tr>
+                  <td> Thursday </td>
+                  <td class="text-end"> 9:00AM - 6:00PM </td>
+                </tr>
+                <tr>
+                  <td> Friday </td>
+                  <td class="text-end"> 9:00AM - 6:00PM </td>
+                </tr>
+                <tr>
+                  <td> Saturday </td>
+                  <td class="text-end"> 9:00AM - 6:00PM </td>
+                </tr>
+                <tr>
+                  <td> Sunday </td>
+                  <td class="text-end"> Closed </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <h3 class="display-6 text-white mb-5"> Contact Info: </h3>
+            <table class="table text-white bg-success">
+              <tbody>
+                <tr>
+                  <td> Office </td>
+                  <td> Sector 10, Uttara </td>
+                </tr>
+                <tr>
+                  <td> Zoo </td>
+                  <td> Banani A Block, Road No- 27 </td>
+                </tr>
+                <tr>
+                  <td> Ticket </td>
+                  <td> +880 1736-458789 </td>
+                </tr>
+                <tr>
+                  <td> Ticket Mail No: </td>
+                  <td> grandparadisezoo.ticket@gmail.com </td>
+                </tr>
+                <tr>
+                  <td> Support</td>
+                  <td> +880 1736-458789 </td>
+                </tr>
+                <tr>
+                  <td> Support Mail No: </td>
+                  <td> grandparadisezoo@helpdesk.com </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-xxl">
+      <div class="container">
+        <div class="container my-lg-5">
+          <div class="row g-5">
+            <div class="col-lg-6">
+              <p> <span class="text-success me-2"> # </span> Membership </p>
+              <h1 class="mb-3 fw-bold"> You Can Be A Proud <br>
+                Member Of <span class="text-success"> Zoofari </span> </h1>
+            </div>
+            <div class="col-lg-6">
+              <div class="bg-success h-100 d-flex align-items-center py-4 px-4 px-sm-5">
+                <img src="offer.png" alt="Loading">
+                <div class="ms-4">
+                  <h5 class="text-white fw-bold mb-0"> Special Pricing </h5>
+                  <p class="text-white mb-0"> Contact Us To Know More Details </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
